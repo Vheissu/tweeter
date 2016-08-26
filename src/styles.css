@@ -15,13 +15,46 @@ img {
   max-width: 100%;
 }
 
+textarea {
+  border: none;
+  display: inline-block;
+  height: 70px;
+  padding: 12px;
+  resize: none;
+  width: 340px;
+}
+
+button {
+  background: #DDD;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  height: 70px;
+  margin-left: 8px;
+  vertical-align: top;
+  width: 120px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.compose-container {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 620px;
+  width: 100%;
+}
+
 tweet-feed {
   background: #FFF;
   border: 1px solid #e1e8ed;
   display: block;
-  margin: 0 auto;
-  max-width: 620px;
-  width: 100%;
 }
 
 tweet {
